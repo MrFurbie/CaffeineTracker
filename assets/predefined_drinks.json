@@ -1,0 +1,511 @@
+{
+  "drinks": [
+    {
+      "id": "red-bull-8-4",
+      "name": "Red Bull",
+      "brand": "Red Bull",
+      "category": "energy_drink",
+      "baseCaffeine": 80,
+      "servingSizes": [
+        {
+          "id": "red-bull-8-4-can",
+          "name": "8.4 oz Can",
+          "volumeML": 250,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "red-bull-12-oz-can",
+          "name": "12 oz Can",
+          "volumeML": 355,
+          "caffeineMultiplier": 1.39
+        },
+        {
+          "id": "red-bull-20-oz-can",
+          "name": "20 oz Can",
+          "volumeML": 591,
+          "caffeineMultiplier": 2.38
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "monster-16",
+      "name": "Monster Energy",
+      "brand": "Monster",
+      "category": "energy_drink",
+      "baseCaffeine": 160,
+      "servingSizes": [
+        {
+          "id": "monster-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "monster-24-can",
+          "name": "24 oz Can",
+          "volumeML": 710,
+          "caffeineMultiplier": 1.5
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "monster-ultra-16",
+      "name": "Monster Ultra",
+      "brand": "Monster",
+      "category": "energy_drink",
+      "baseCaffeine": 140,
+      "servingSizes": [
+        {
+          "id": "monster-ultra-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "rockstar-16",
+      "name": "Rockstar Energy",
+      "brand": "Rockstar",
+      "category": "energy_drink",
+      "baseCaffeine": 160,
+      "servingSizes": [
+        {
+          "id": "rockstar-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "rockstar-24-can",
+          "name": "24 oz Can",
+          "volumeML": 710,
+          "caffeineMultiplier": 1.5
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "nos-16",
+      "name": "NOS Energy",
+      "brand": "NOS",
+      "category": "energy_drink",
+      "baseCaffeine": 160,
+      "servingSizes": [
+        {
+          "id": "nos-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "nos-22-bottle",
+          "name": "22 oz Bottle",
+          "volumeML": 650,
+          "caffeineMultiplier": 1.38
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "5-hour-energy",
+      "name": "5-Hour Energy",
+      "brand": "5-Hour Energy",
+      "category": "energy_shot",
+      "baseCaffeine": 200,
+      "servingSizes": [
+        {
+          "id": "5-hour-energy-regular",
+          "name": "Regular (1.93 oz)",
+          "volumeML": 57,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "5-hour-energy-extra",
+          "name": "Extra Strength (1.93 oz)",
+          "volumeML": 57,
+          "caffeineMultiplier": 1.15
+        },
+        {
+          "id": "5-hour-energy-max",
+          "name": "Maximum Strength (1.93 oz)",
+          "volumeML": 57,
+          "caffeineMultiplier": 1.3
+        }
+      ],
+      "icon": "energy_shot_icon",
+      "isCustom": false
+    },
+    {
+      "id": "celsius-12",
+      "name": "Celsius",
+      "brand": "Celsius",
+      "category": "energy_drink",
+      "baseCaffeine": 200,
+      "servingSizes": [
+        {
+          "id": "celsius-12-can",
+          "name": "12 oz Can",
+          "volumeML": 355,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "celsius-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.33
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "bang-16",
+      "name": "Bang Energy",
+      "brand": "Bang",
+      "category": "energy_drink",
+      "baseCaffeine": 300,
+      "servingSizes": [
+        {
+          "id": "bang-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "c4-16",
+      "name": "C4 Energy",
+      "brand": "C4",
+      "category": "energy_drink",
+      "baseCaffeine": 200,
+      "servingSizes": [
+        {
+          "id": "c4-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "starbucks-triple-shot",
+      "name": "Starbucks Triple Shot Energy",
+      "brand": "Starbucks",
+      "category": "coffee_energy",
+      "baseCaffeine": 225,
+      "servingSizes": [
+        {
+          "id": "starbucks-triple-15-can",
+          "name": "15 oz Can",
+          "volumeML": 443,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "coffee_icon",
+      "isCustom": false
+    },
+    {
+      "id": "dunkin-energy",
+      "name": "Dunkin' Energy Punch",
+      "brand": "Dunkin'",
+      "category": "coffee_energy",
+      "baseCaffeine": 186,
+      "servingSizes": [
+        {
+          "id": "dunkin-energy-13-can",
+          "name": "13.7 oz Can",
+          "volumeML": 405,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "coffee_icon",
+      "isCustom": false
+    },
+    {
+      "id": "mtv-dew-amp",
+      "name": "MTN DEW AMP",
+      "brand": "Mountain Dew",
+      "category": "energy_drink",
+      "baseCaffeine": 142,
+      "servingSizes": [
+        {
+          "id": "mtv-dew-amp-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "full-throttle",
+      "name": "Full Throttle",
+      "brand": "Coca-Cola",
+      "category": "energy_drink",
+      "baseCaffeine": 160,
+      "servingSizes": [
+        {
+          "id": "full-throttle-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "venom-16",
+      "name": "Venom Energy",
+      "brand": "Venom",
+      "category": "energy_drink",
+      "baseCaffeine": 160,
+      "servingSizes": [
+        {
+          "id": "venom-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "venom-24-can",
+          "name": "24 oz Can",
+          "volumeML": 710,
+          "caffeineMultiplier": 1.5
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "reign-16",
+      "name": "Reign Total Body Fuel",
+      "brand": "Reign",
+      "category": "energy_drink",
+      "baseCaffeine": 300,
+      "servingSizes": [
+        {
+          "id": "reign-16-can",
+          "name": "16 oz Can",
+          "volumeML": 473,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "alani-nu-12",
+      "name": "Alani Nu",
+      "brand": "Alani Nu",
+      "category": "energy_drink",
+      "baseCaffeine": 200,
+      "servingSizes": [
+        {
+          "id": "alani-nu-12-can",
+          "name": "12 oz Can",
+          "volumeML": 355,
+          "caffeineMultiplier": 1.0
+        }
+      ],
+      "icon": "energy_drink_icon",
+      "isCustom": false
+    },
+    {
+      "id": "caffeine-pill-100",
+      "name": "Caffeine Pill",
+      "brand": "Generic",
+      "category": "supplement",
+      "baseCaffeine": 100,
+      "servingSizes": [
+        {
+          "id": "caffeine-pill-100-tablet",
+          "name": "100mg Tablet",
+          "volumeML": 0,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "caffeine-pill-200-tablet",
+          "name": "200mg Tablet",
+          "volumeML": 0,
+          "caffeineMultiplier": 2.0
+        }
+      ],
+      "icon": "pill_icon",
+      "isCustom": false
+    },
+    {
+      "id": "coffee-brewed-8",
+      "name": "Brewed Coffee",
+      "brand": "Generic",
+      "category": "coffee",
+      "baseCaffeine": 95,
+      "servingSizes": [
+        {
+          "id": "coffee-8-oz",
+          "name": "8 oz Cup",
+          "volumeML": 237,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "coffee-12-oz",
+          "name": "12 oz Cup",
+          "volumeML": 355,
+          "caffeineMultiplier": 1.5
+        },
+        {
+          "id": "coffee-16-oz",
+          "name": "16 oz Cup",
+          "volumeML": 473,
+          "caffeineMultiplier": 2.0
+        }
+      ],
+      "icon": "coffee_icon",
+      "isCustom": false
+    },
+    {
+      "id": "espresso-single",
+      "name": "Espresso",
+      "brand": "Generic",
+      "category": "coffee",
+      "baseCaffeine": 63,
+      "servingSizes": [
+        {
+          "id": "espresso-single-shot",
+          "name": "Single Shot (1 oz)",
+          "volumeML": 30,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "espresso-double-shot",
+          "name": "Double Shot (2 oz)",
+          "volumeML": 60,
+          "caffeineMultiplier": 2.0
+        }
+      ],
+      "icon": "coffee_icon",
+      "isCustom": false
+    },
+    {
+      "id": "diet-coke-20",
+      "name": "Diet Coke",
+      "brand": "Coca-Cola",
+      "category": "soda",
+      "baseCaffeine": 46,
+      "servingSizes": [
+        {
+          "id": "diet-coke-12-oz",
+          "name": "12 oz Can",
+          "volumeML": 355,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "diet-coke-20-oz",
+          "name": "20 oz Bottle",
+          "volumeML": 591,
+          "caffeineMultiplier": 1.67
+        }
+      ],
+      "icon": "soda_icon",
+      "isCustom": false
+    },
+    {
+      "id": "mountain-dew-20",
+      "name": "Mountain Dew",
+      "brand": "Pepsi",
+      "category": "soda",
+      "baseCaffeine": 54,
+      "servingSizes": [
+        {
+          "id": "mountain-dew-12-oz",
+          "name": "12 oz Can",
+          "volumeML": 355,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "mountain-dew-20-oz",
+          "name": "20 oz Bottle",
+          "volumeML": 591,
+          "caffeineMultiplier": 1.67
+        }
+      ],
+      "icon": "soda_icon",
+      "isCustom": false
+    },
+    {
+      "id": "pepsi-20",
+      "name": "Pepsi",
+      "brand": "Pepsi",
+      "category": "soda",
+      "baseCaffeine": 38,
+      "servingSizes": [
+        {
+          "id": "pepsi-12-oz",
+          "name": "12 oz Can",
+          "volumeML": 355,
+          "caffeineMultiplier": 1.0
+        },
+        {
+          "id": "pepsi-20-oz",
+          "name": "20 oz Bottle",
+          "volumeML": 591,
+          "caffeineMultiplier": 1.67
+        }
+      ],
+      "icon": "soda_icon",
+      "isCustom": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "energy_drink",
+      "name": "Energy Drinks",
+      "icon": "bolt.fill"
+    },
+    {
+      "id": "energy_shot",
+      "name": "Energy Shots",
+      "icon": "drop.fill"
+    },
+    {
+      "id": "coffee_energy",
+      "name": "Coffee Energy",
+      "icon": "cup.and.saucer.fill"
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "icon": "coffee.fill"
+    },
+    {
+      "id": "soda",
+      "name": "Soda",
+      "icon": "canister.fill"
+    },
+    {
+      "id": "supplement",
+      "name": "Supplements",
+      "icon": "pills.fill"
+    }
+  ],
+  "defaultSettings": {
+    "dailyCaffeineLimit": 400,
+    "recommendedLimit": 400,
+    "units": "mg"
+  }
+}
